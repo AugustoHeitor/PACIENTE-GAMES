@@ -20,23 +20,6 @@ h1{
     border: solid white 10px;
 }
 
-#arrowRight, #arrowLeft{
-    height:2vw;
-    width:2vw;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-#arrowRight{
-    position: relative;
-    left: 25vw;
-}
-
-#arrowLeft{
-    position: relative;
-    right: 25vw;
-}
-
 h2{
     color: White;
     font-size: 1.7vw;
