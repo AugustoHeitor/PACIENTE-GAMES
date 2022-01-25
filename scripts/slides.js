@@ -17,5 +17,5 @@ setInterval(function() {
         destaques.src="imagens/destaques/destaques1.png"
         r = 0
     }
-  }, 5000);
+  }, 3000);
 

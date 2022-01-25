@@ -1,0 +1,32 @@
+.caixa{
+    margin: 200px auto 200px auto;
+    width: 90%;
+    background-color: white;
+    height: 50%;
+    border-radius: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caixa h1{
+    display: block;
+    padding-top: 1vw;
+    text-align: center;
+    font-size:1.5vw;
+}
+
+.caixa h2{
+    font-size:1.3vw;
+    margin-top: 2vw;
+    margin-left: 1.5vw;
+}
+
+.caixa p{
+    font-size:1.3vw;
+    margin-top: 2vw;
+    margin-left: 1.5vw;
+    margin-right: 1vw;
+}
+
+.margem{
+    padding-bottom: 2vw;
+}

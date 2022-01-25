@@ -1,0 +1,81 @@
+.lupa{
+    margin-top: 1vw!important;
+}
+
+
+.corpodocontato{
+    background-color: white;
+    margin-bottom: 5vw;
+    padding-bottom: 0.5vw;
+}
+
+.center{
+    padding-top: 2vw;
+    margin-top: 2.8vw;
+    margin-bottom: 1vw;
+    text-align: center;
+    font-weight: normal;
+}
+
+.contato{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vw;
+}
+
+form{
+    margin: 1.5vw;
+    background-color: lightgray;
+    width:25vw;
+    height:20vw;
+    padding:30px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+label{
+    font-weight: normal;
+    position: relative;
+    right: 0.3vw;
+    color: black;
+    margin: 1vw;
+    font-size: 1.1vw;
+}
+
+input{
+    padding: 0.2vw;
+    margin: 0.5vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 22vw;
+}
+
+input:valid, textarea:valid{
+    border-color: green;
+}
+
+textarea{
+    margin: 0.5vw;
+    height: 5.5vw;
+    padding: 0.2vw;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 22vw;
+}
+
+button{
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 1vw;
+    padding: 0.5vw;
+    font-size: 0.8vw;
+}
+
+button:hover{
+    background-color: rgba(21, 252, 0, 0.589);
+    cursor: pointer;
+}

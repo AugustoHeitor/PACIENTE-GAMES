@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - PACIENTE-GAMES</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contato.css">
+</head>
+<body>
+    <header>
+
+        <a href="index.html"><img src="imagens/header/log.png" alt="log" id="logo"></a>
+
+        <div id="pesq">
+            <input type="text">
+            <img src="imagens/header/lupa.png" alt="lupa" id="lupa" class="lupa">
+        </div>
+
+        <a href="categorias.html"><img src="imagens/header/menu.png" alt="menu" id="menu"></a>
+
+        <img src="imagens/header/favoritos.png" alt="favoritos" id="favoritos">
+    </header>
+
+    <main>
+
+        <div class="corpodocontato">
+            <h1 class="center">Contato</h1>
+            
+            <div class="contato">
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <input type="hidden" name="accessKey" value="4f64efa6-f7e6-40e1-94f8-2d551cea7aa2">
+                    <input type="hidden" name="redirectTo" value="#">
+                    <div>
+                        <label for="inputNome">Primeiro Nome:</label>
+                        <input type="text" id="inputNome" name="name" required maxlength="25" minlength="2">
+                    </div>
+                    <div>
+                        <label for="inputEmail">Endereço de Email:</label>
+                        <input type="email" id="inputEmail" name="email" required maxlength="50">
+                    </div>
+                    <div>
+                        <label for="textAreaMensagem">Mensagem:</label>
+                        <textarea id="textAreaMensagem" name="message" required maxlength="100"></textarea>
+                    </div>
+            
+                    <div class="button">
+                        <button type="submit">Enviar Mensagem</button>
+                    </div>
+                </form>
+
+    </main>
+
+    <footer>
+        <a href="termosCondicoes.html"><p>Termos e Condições</p></a>
+        <a href="privacidade.html"><p>Privacidade</p></a>
+        <a href="cookies.html"><p>Cookies</p></a>
+        <a href="contateNos.html"><h3>Contate-nos</h3></a>
+    </footer>
+</body>
+<script src="scripts/menu.js"></script>
+</html>

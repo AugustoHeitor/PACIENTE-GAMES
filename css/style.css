@@ -114,10 +114,20 @@ footer a p{
     font-size: 1.2vw;
 }
 
+footer a p:hover{
+    transition: 0.3s;
+    color: rgba(21, 252, 0, 0.589);
+}
+
 footer a h3{
-    position: relative;
+    position: absolute;
     color: black;
-    left: 58vw;
+    left: 90vw;
     font-size: 1.4vw;
     font-weight: normal;
+}
+
+footer a h3:hover{
+    transition: 0.3s;
+    color: rgba(21, 252, 0, 0.589);
 }
