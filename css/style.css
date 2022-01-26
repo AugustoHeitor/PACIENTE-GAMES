@@ -131,3 +131,112 @@ footer a h3:hover{
     transition: 0.3s;
     color: rgba(21, 252, 0, 0.589);
 }
+
+@media screen and (max-width:768px){
+
+
+    header{
+        height: 10vw;
+    }
+    
+    #logo{
+        margin-left: 0.8vw;
+        width: 50VW;
+        height: 10vw;
+    }
+    
+    
+    #pesq{
+       display: none;
+    }
+    
+    #menu{
+        width: 9vw;
+        height: 9vw;
+        margin-left: 27vw;
+    }
+    
+    #favoritos{
+        width: 9vw;
+        height: 9vw;
+    }
+    
+    footer{
+        display: inline;
+    }
+    
+    footer a p{
+        display: inline;
+        color: black;
+        font-size: 4vw;
+        margin-bottom: 2.5vw;
+        margin-right: 1;
+    }
+    
+    footer a h3{
+        position: relative;
+        top: 2vw;
+        margin-bottom: 2vw;
+        left: 0;
+        font-size: 4vw;
+    }
+    
+   
+}
+
+
+@media screen and (max-width:400px){
+
+
+    header{
+        height: 10vw;
+    }
+    
+    #logo{
+        margin-left: 0.8vw;
+        width: 50VW;
+        height: 10vw;
+    }
+    
+    
+    #pesq{
+       display: none;
+    }
+    
+    #menu{
+        width: 9vw;
+        height: 9vw;
+        margin-left: 27vw;
+    }
+    
+    #favoritos{
+        width: 9vw;
+        height: 9vw;
+    }
+    
+    footer{
+        display: block;
+    }
+    
+    footer a p{
+        display: block;
+        position: none;
+        color: black;
+        text-align: center;
+        font-size: 5vw;
+        margin-bottom: 2.5vw;
+        margin-right: 0;
+    }
+    
+    footer a h3{
+        position: relative;
+        top:0;
+        left: 0;
+        font-size: 5vw;
+        text-align: center;
+        margin-bottom: 0vw;
+    }
+    
+   
+}
+

@@ -57,3 +57,54 @@
 #margemBaixa{
     margin-bottom: 6vw;
 }
+
+@media screen and (max-width:768px){
+
+    #margemAlta{
+        margin-top: 0vw;
+    }
+    
+    #center{
+        font-size: 6.5vw;
+        padding-top: 3vw;
+        margin-top: 4vw;
+        margin-bottom: 2vw;
+    }
+    
+    #margemBaixa{
+        margin-bottom:0;
+    }
+
+    .margbaixa{
+        margin-bottom: 150px!important;
+    }
+
+}
+
+@media screen and (max-width:400px){
+
+    #margemAlta{
+        margin-top: 0vw;
+    }
+    
+    #center{
+        font-size: 6.5vw;
+        padding-top: 3vw;
+        margin-top: 4vw;
+        margin-bottom: 2vw;
+    }
+    
+    #margemBaixa{
+        margin-bottom: 0;
+    }
+
+    .margbaixa{
+        margin-bottom: 0!important;
+    }
+
+    .margemBaixa{
+        margin-bottom: 170px!important;
+    }
+    
+}
+

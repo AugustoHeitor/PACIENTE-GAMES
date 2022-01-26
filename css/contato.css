@@ -79,3 +79,61 @@ button:hover{
     background-color: rgba(21, 252, 0, 0.589);
     cursor: pointer;
 }
+
+@media screen and (max-width:768px){
+
+    .lupa{
+        display:none!important;
+    }
+
+    .corpodocontato{
+        display:block;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .center{
+        font-size: 5vw;
+        padding-top: 2vw;
+        margin-top: 8vw;
+        margin-bottom: 2vw;
+    }
+    
+    .contato{
+        margin-bottom: 0vw;
+    }
+    
+    form{
+        margin: 5vw;
+        width:55vw;
+        height:65vw;
+        padding:30px;
+    }
+    
+    label{
+        right: 0.1vw;
+        margin: 1vw;
+        font-size: 4vw;
+    }
+    
+    input{
+        padding: 1.5vw;
+        width: 50vw;
+    }
+    
+    textarea{
+        margin: 0.5vw;
+        height: 8vw;
+        padding: 5vw;
+        width: 45vw;
+    }
+    
+    button{
+        display: block;
+        margin: 10px auto 3px auto;
+        padding: 3vw;
+        font-size: 3vw;
+    }
+
+    
+}
