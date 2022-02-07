@@ -55,8 +55,6 @@ h2{
 
 #categorias a:hover{
     background-color: rgba(21, 252, 0, 0.589);
-    width: 9.8vw;
-    height: 1.8vw;
     border-radius: 2vw;
     transition: 0.3s;
     color: black;

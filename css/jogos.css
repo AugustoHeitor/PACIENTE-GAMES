@@ -21,7 +21,7 @@
 .caixa img{
     background-color: black;
     border: 2px solid black;
-    height: 250px;
+    height: 150px;
     width: 200px;
     display: block;
     margin: 20px;
@@ -76,12 +76,12 @@
     }
 
     .margbaixa{
-        margin-bottom: 150px!important;
+        margin-bottom: 200px!important;
     }
 
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:450px){
 
     #margemAlta{
         margin-top: 0vw;
@@ -103,7 +103,7 @@
     }
 
     .margemBaixa{
-        margin-bottom: 170px!important;
+        margin-bottom: 200px!important;
     }
     
 }
