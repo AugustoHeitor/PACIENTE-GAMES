@@ -1,7 +1,7 @@
 #cx-jogar{
     background-color: rgb(0, 0, 0);
     margin: 70px auto 70px auto;
-    width: 700px;
+    width: 800px;
     height: 400px;
     display: grid;
     border: 1px solid rgb(161, 155, 155);
@@ -16,7 +16,29 @@
     font-weight: bold;
 }
 
-@media screen and (max-width:750px){
+@media screen and (max-width:780px){
+   
+    #cx-jogar{
+        background-color: rgb(0, 0, 0);
+        margin: 70px auto 70px auto;
+        width: 500px;
+        height: 600px;
+        display: grid;
+        border: 1px solid rgb(161, 155, 155);
+    }
+    
+    #cx-jogar > button{
+        margin: auto;
+        padding: 5px;
+        background-color: rgb(62, 99, 6);
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+}
+
+@media screen and (max-width:400px){
    
     #cx-jogar{
         background-color: rgb(0, 0, 0);
@@ -37,3 +59,4 @@
     }
     
 }
+
