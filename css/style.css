@@ -6,6 +6,12 @@
     overflow-x: hidden;
 }
 
+#imgMouse{
+    width: 70px;
+    height: 70px;
+    visibility: hidden;
+}
+
 body{
     background-color: rgba(0, 0, 0, 0.89);
     user-select: none;
@@ -44,6 +50,7 @@ header a{
 }
 
 #pesq input{
+    position: relative;
     padding: 3px;
     height: 2vw;
     border-radius: 0.8vw;
@@ -72,13 +79,21 @@ header a{
     display: block; 
 }
 
-#lupa{
-    position: absolute;
-    margin-top: 0.5vw;
-    width: 1.4vw;
-    height: 1.4vw;
-    left: 56.1%;
+.loginCadastro{
+    position: relative;
+    margin-right: 10vw;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.842);
+    padding: 0.4vw;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
 }
+
+#user{
+    display: none;
+}
+
 
 #menu{
     position: relative;
@@ -147,6 +162,11 @@ footer a h3:hover{
 
 @media screen and (max-width:768px){
 
+    #imgMouse{
+        width: 70px;
+        height: 70px;
+        visibility: hidden;
+    }
 
     header{
         height: 10vw;
@@ -154,6 +174,7 @@ footer a h3:hover{
     
     #logo{
         margin-left: 0.8vw;
+        margin-right: 20vw;
         width: 40VW;
         height: 10vw;
     }
@@ -162,11 +183,24 @@ footer a h3:hover{
     #pesq{
        display: none;
     }
+
+    .loginCadastro{
+       display: none;
+    }
+
+
+    #user{
+        display: inline;
+        margin: 12px 1px 1px 1px;
+        width: 9vw;
+        height: 7vw;
+    }
+
     
     #menu{
         width: 9vw;
         height: 9vw;
-        margin-left: 27vw;
+        margin-left: 10vw;
     }
     
     #favoritos{
@@ -213,6 +247,7 @@ footer a h3:hover{
     
     #logo{
         margin-left: 0.8vw;
+        margin-right: 10vw;
         width: 40VW;
         height: 10vw;
     }
@@ -221,11 +256,23 @@ footer a h3:hover{
     #pesq{
        display: none;
     }
+
+    .loginCadastro{
+       display: none;
+    }
+
+    #user{
+        display: inline;
+        margin: 5px 1px 1px 1px;
+        margin-right: 10vw;
+        width: 9vw;
+        height: 7vw;
+    }
     
     #menu{
         width: 9vw;
         height: 9vw;
-        margin-left: 27vw;
+        margin-left: 2vw;
     }
     
     #favoritos{

@@ -1,8 +1,8 @@
 #cx-jogar{
     background-color: rgb(0, 0, 0);
     margin: 70px auto 70px auto;
-    width: 800px;
-    height: 400px;
+    width: 60vw;
+    height: 30vw;
     display: grid;
     border: 1px solid rgb(161, 155, 155);
 }

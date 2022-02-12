@@ -7,11 +7,9 @@ let imgMouse = document.getElementById('imgMouse')
 
 function Mouse(e){
 
-    $('#imgMouse').css('width', '70px')
-    $('#imgMouse').css('height', '70px')
     $('#imgMouse').css('position', 'absolute')
     $('#imgMouse').css('top', e.clientY+10+'px')
-    $('#imgMouse').css('left', e.clientX+'px')
+    $('#imgMouse').css('left', e.clientX+100+'px')
     
 }
 
