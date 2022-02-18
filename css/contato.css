@@ -125,7 +125,7 @@ button:hover{
         margin: 0.5vw;
         height: 8vw;
         padding: 5vw;
-        width: 45vw;
+        width: 44vw;
     }
     
     button{
@@ -136,4 +136,10 @@ button:hover{
     }
 
     
+}
+
+@media screen and (max-width:500px){    
+    .txtArea{
+        width: 43vw;
+    }
 }
